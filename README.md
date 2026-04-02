@@ -1,27 +1,62 @@
-# Gabriel Mowses (Mouse) — DevOps & Cloud Architect
+# Gabriel Mowses
 
-**Ajudo times a escalar com segurança, acelerar deploys e reduzir custos** usando **AWS, Kubernetes, Terraform, CI/CD e SRE** com **observability** de ponta a ponta.
+**Infrastructure Engineer & DevOps** at NEES/UFAL | **ISP Network Tools** creator | Maceio-AL, Brazil
 
-- 🔭 **Projetos de impacto**: TelaBrasil (streaming público) • SPTE (educação – evasão escolar) • ChatDigi (SaaS – Digital Face)
-- 🧭 **Arquitetura**: IaC (Terraform) • Kubernetes (AWS) • GitOps (Argo CD) • EDA • Microservices • Cloud Security/IAM
-- 📊 **Confiabilidade**: SRE • SLO/SLI • Prometheus • Grafana • Loki • Jaeger
-- 🛠 **Stack**: AWS • K8s • Terraform • Docker • Helm • Argo CD • GitHub Actions/Jenkins • Python/Go • PostgreSQL/Redis • Linux • NGINX/Traefik • Redes (BGP/MPLS)
+Building scalable infrastructure for government platforms, ISPs and SaaS products. I design, deploy and operate production Kubernetes clusters, CI/CD pipelines and monitoring stacks across AWS and on-premise environments.
 
-## 🔹 Destaques
-- **TelaBrasil (NEES)**: suporte à operação de um dos maiores streamings públicos do país (observabilidade, CI/CD e infra escalável).
-- **SPTE (NEES)**: plataforma para apoiar gestores contra evasão escolar (governança de ambientes e pipelines).
-- **ChatDigi (Digital Face)**: SaaS com arquitetura orientada a eventos, GitOps e métricas de confiabilidade.
+---
 
-## 🧰 Projetos em destaque
-- **ChatDigi** – automação/atendimento (SaaS): K8s, Terraform, GitOps, Observability.  
-- **n8n_ixc** – integrações IXCsoft + n8n (ETL/automação para ISP).  
-- **NetFlow Pipeline (Go + TS/PG/Influx)** – coleta/aggregations/dashboards (ASN, países, portas).  
-- **Zabbix Docker Compose** – stack pronta para observabilidade rápida.  
-- **External Ping** – health-check externo simples e direto.
+### What I do
 
-> Dicas técnicas, roteiros e materiais: veja meus repositórios e **stars**.
+- **Cloud & Kubernetes** — AWS EKS, on-prem Nutanix clusters, Helm, ArgoCD, Karpenter
+- **Infrastructure as Code** — OpenTofu/Terraform modules, GitOps, multi-environment pipelines
+- **Networking** — BGP, MPLS, SNMP, NetFlow, CGNAT, IPv4/IPv6 subnetting, ISP operations
+- **Observability** — Prometheus, Grafana, Loki, Jaeger, SLO/SLI, incident response
+- **Backend** — Python (FastAPI), Go, Node.js, PostgreSQL, Redis
+- **Security** — HashiCorp Vault, OIDC/OAuth2, cert-manager, network segmentation
 
-## 📫 Contato
-- LinkedIn: [linkedin.com/in/gabrielmowses](https://www.linkedin.com/in/gabrielmowses)
-- E-mail: contato@gmowses.cloud
-- Local: Maceió-AL • Remoto
+### Production at scale
+
+| Project | What | Stack |
+|---------|------|-------|
+| **CultBR** | Cultural governance platform for Brazil's Ministry of Culture | FastAPI, Vue.js, Aurora PostgreSQL, EKS, ArgoCD |
+| **TelaBrasil** | One of Brazil's largest public streaming platforms | EKS, observability, CI/CD, scalable infra |
+| **CloudFace** | NMS/IPAM platform for Brazilian ISPs | FastAPI, React, SNMP, NetFlow, SSH automation |
+| **SPTE** | Education platform fighting school dropout | K8s, Terraform, pipeline governance |
+
+### Open Source — Network Tools
+
+Standalone tools extracted from production ISP infrastructure. MIT licensed, built to be useful.
+
+| Tool | Description | Language |
+|------|-------------|----------|
+| **ipv4-calculator** | Subnet calculator with VLSM support | TypeScript |
+| **ipv6-calculator** | IPv6 address analysis with BigInt arithmetic | TypeScript |
+| **password-generator** | Cryptographic password gen with entropy analysis | TypeScript |
+| **netflow-parser** | Parse NetFlow v5/v9/IPFIX/sFlow binary packets | Python |
+| **cgnat-parser** | Parse CGNAT syslogs (Huawei/MikroTik/Juniper) | Python |
+| **snmp-poller** | Async SNMP polling with MIB-II and 64-bit counters | Python |
+| **config-parser** | Extract structured data from Huawei/Cisco/Datacom configs | Python |
+| **log-parsers** | Multi-vendor syslog parser (Cisco, Huawei, MikroTik, Juniper, DMOS) | Python |
+| **facilities-generator** | ISP facility doc generator (P2P, BGP, VLAN configs) | TypeScript |
+
+### Tech
+
+```
+Cloud:        AWS (EKS, Aurora, ElastiCache, S3, IAM, Route53)
+Orchestration: Kubernetes, Helm, ArgoCD, Karpenter
+IaC:          OpenTofu, Terraform, HCL
+CI/CD:        GitLab CI, GitHub Actions
+Languages:    Python, Go, TypeScript, Bash, HCL
+Databases:    PostgreSQL, Redis, InfluxDB
+Monitoring:   Prometheus, Grafana, Loki, Jaeger, Zabbix
+Networking:   BGP, MPLS, SNMP, NetFlow, CGNAT, DNS
+Security:     HashiCorp Vault, OIDC, cert-manager
+OS:           Linux (Debian, Ubuntu, RHEL)
+```
+
+### Contact
+
+- **LinkedIn**: [linkedin.com/in/gabrielmowses](https://www.linkedin.com/in/gabrielmowses)
+- **Email**: contato@gmowses.cloud
+- **Location**: Maceio-AL, Brazil | Remote
