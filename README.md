@@ -8,20 +8,37 @@ Building scalable infrastructure for government platforms, ISPs and SaaS product
 
 ### Open Source Tools
 
-All tools run client-side, no backend needed. MIT licensed.
+All tools run client-side with zero backend. Dark/light mode + EN/PT-BR. MIT licensed.
 
-| Tool | Description | Live Demo |
-|------|-------------|-----------|
-| [**password-generator**](https://github.com/gmowses/password-generator) | Secure password gen with entropy analysis and crack-time estimation | [Demo](https://gmowses.github.io/password-generator/) |
-| [**ipv4-calculator**](https://github.com/gmowses/ipv4-calculator) | Subnet calculator with VLSM support and binary representation | [Demo](https://gmowses.github.io/ipv4-calculator/) |
-| [**ipv6-calculator**](https://github.com/gmowses/ipv6-calculator) | IPv6 address analysis with BigInt arithmetic and type detection | [Demo](https://gmowses.github.io/ipv6-calculator/) |
-| [**bandwidth-calculator**](https://github.com/gmowses/bandwidth-calculator) | Unit conversion, transfer time, oversubscription and 95th percentile | [Demo](https://gmowses.github.io/bandwidth-calculator/) |
-| [**jwt-decoder**](https://github.com/gmowses/jwt-decoder) | JWT token decoder with claim inspection and expiration check | [Demo](https://gmowses.github.io/jwt-decoder/) |
-| [**cron-builder**](https://github.com/gmowses/cron-builder) | Visual cron expression builder with presets and next executions | [Demo](https://gmowses.github.io/cron-builder/) |
-| [**regex-playground**](https://github.com/gmowses/regex-playground) | Regex tester with network presets (IP, MAC, CIDR, ASN) | [Demo](https://gmowses.github.io/regex-playground/) |
-| [**http-status**](https://github.com/gmowses/http-status) | Interactive HTTP status code reference with search and examples | [Demo](https://gmowses.github.io/http-status/) |
+**Networking & ISP**
 
-All tools feature dark/light mode and English/Portuguese translation.
+| Tool | Description | Demo |
+|------|-------------|------|
+| [**ipv4-calculator**](https://github.com/gmowses/ipv4-calculator) | Subnet calculator with VLSM and binary view | [Live](https://gmowses.github.io/ipv4-calculator/) |
+| [**ipv6-calculator**](https://github.com/gmowses/ipv6-calculator) | IPv6 analysis with BigInt arithmetic and type detection | [Live](https://gmowses.github.io/ipv6-calculator/) |
+| [**bandwidth-calculator**](https://github.com/gmowses/bandwidth-calculator) | Unit conversion, transfer time, oversubscription, 95th percentile | [Live](https://gmowses.github.io/bandwidth-calculator/) |
+
+**Security & Encoding**
+
+| Tool | Description | Demo |
+|------|-------------|------|
+| [**password-generator**](https://github.com/gmowses/password-generator) | Cryptographic password gen with entropy and crack-time analysis | [Live](https://gmowses.github.io/password-generator/) |
+| [**hash-generator**](https://github.com/gmowses/hash-generator) | SHA-1/256/384/512 via Web Crypto API with file hashing | [Live](https://gmowses.github.io/hash-generator/) |
+| [**jwt-decoder**](https://github.com/gmowses/jwt-decoder) | JWT decoder with claim inspection and expiration check | [Live](https://gmowses.github.io/jwt-decoder/) |
+| [**base64-codec**](https://github.com/gmowses/base64-codec) | Base64 encoder/decoder with file support and URL-safe mode | [Live](https://gmowses.github.io/base64-codec/) |
+
+**DevOps & Development**
+
+| Tool | Description | Demo |
+|------|-------------|------|
+| [**cron-builder**](https://github.com/gmowses/cron-builder) | Visual cron builder with presets and next execution preview | [Live](https://gmowses.github.io/cron-builder/) |
+| [**chmod-calculator**](https://github.com/gmowses/chmod-calculator) | Linux permission calculator with visual checkboxes and presets | [Live](https://gmowses.github.io/chmod-calculator/) |
+| [**yaml-json-converter**](https://github.com/gmowses/yaml-json-converter) | YAML/JSON converter with validation and syntax highlighting | [Live](https://gmowses.github.io/yaml-json-converter/) |
+| [**json-formatter**](https://github.com/gmowses/json-formatter) | JSON formatter, validator and minifier with tree view | [Live](https://gmowses.github.io/json-formatter/) |
+| [**regex-playground**](https://github.com/gmowses/regex-playground) | Regex tester with network presets (IP, MAC, CIDR, ASN) | [Live](https://gmowses.github.io/regex-playground/) |
+| [**diff-checker**](https://github.com/gmowses/diff-checker) | Text diff with side-by-side view and unified diff output | [Live](https://gmowses.github.io/diff-checker/) |
+| [**timestamp-converter**](https://github.com/gmowses/timestamp-converter) | Unix timestamp converter with timezone support | [Live](https://gmowses.github.io/timestamp-converter/) |
+| [**http-status**](https://github.com/gmowses/http-status) | Interactive HTTP status code reference with search | [Live](https://gmowses.github.io/http-status/) |
 
 ---
 
