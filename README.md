@@ -2,105 +2,58 @@
 
 **Infrastructure Engineer & DevOps** at NEES/UFAL | **CloudFace Tools** creator | Maceio-AL, Brazil
 
-Building scalable infrastructure for government platforms, ISPs and SaaS products. 49 open source developer tools and counting.
+79 open source developer tools for networking, security, DevOps and telecom. All client-side, dark/light mode, EN/PT-BR.
 
 ---
 
-### CloudFace Tools -- Open Source
+### CloudFace Tools
 
-All tools run client-side with zero backend. Dark/light mode + EN/PT-BR. MIT licensed.
+#### Networking & ISP (16)
 
-#### Networking & ISP
+[ipv4-calculator](https://gmowses.github.io/ipv4-calculator/) | [ipv6-calculator](https://gmowses.github.io/ipv6-calculator/) | [bandwidth-calculator](https://gmowses.github.io/bandwidth-calculator/) | [mac-lookup](https://gmowses.github.io/mac-lookup/) | [dns-record-reference](https://gmowses.github.io/dns-record-reference/) | [cidr-overlap-checker](https://gmowses.github.io/cidr-overlap-checker/) | [subnet-cheatsheet](https://gmowses.github.io/subnet-cheatsheet/) | [port-reference](https://gmowses.github.io/port-reference/) | [vlan-planner](https://gmowses.github.io/vlan-planner/) | [mtu-calculator](https://gmowses.github.io/mtu-calculator/) | [wireless-calculator](https://gmowses.github.io/wireless-calculator/) | [fiber-loss-calculator](https://gmowses.github.io/fiber-loss-calculator/) | [nat-type-reference](https://gmowses.github.io/nat-type-reference/) | [arp-table-parser](https://gmowses.github.io/arp-table-parser/) | [tcp-flags-reference](https://gmowses.github.io/tcp-flags-reference/) | [bgp-community-reference](https://gmowses.github.io/bgp-community-reference/)
 
-| Tool | Live |
-|------|------|
-| [ipv4-calculator](https://github.com/gmowses/ipv4-calculator) -- Subnet calculator with VLSM | [Demo](https://gmowses.github.io/ipv4-calculator/) |
-| [ipv6-calculator](https://github.com/gmowses/ipv6-calculator) -- IPv6 analysis with BigInt | [Demo](https://gmowses.github.io/ipv6-calculator/) |
-| [bandwidth-calculator](https://github.com/gmowses/bandwidth-calculator) -- Unit conversion, oversubscription, 95th percentile | [Demo](https://gmowses.github.io/bandwidth-calculator/) |
-| [mac-lookup](https://github.com/gmowses/mac-lookup) -- MAC vendor lookup (OUI) | [Demo](https://gmowses.github.io/mac-lookup/) |
-| [dns-record-reference](https://github.com/gmowses/dns-record-reference) -- DNS record types reference | [Demo](https://gmowses.github.io/dns-record-reference/) |
-| [cidr-overlap-checker](https://github.com/gmowses/cidr-overlap-checker) -- CIDR range conflict detection | [Demo](https://gmowses.github.io/cidr-overlap-checker/) |
-| [subnet-cheatsheet](https://github.com/gmowses/subnet-cheatsheet) -- /0 to /32 quick reference | [Demo](https://gmowses.github.io/subnet-cheatsheet/) |
-| [port-reference](https://github.com/gmowses/port-reference) -- Well-known ports reference | [Demo](https://gmowses.github.io/port-reference/) |
-| [bgp-community-reference](https://github.com/gmowses/bgp-community-reference) -- BGP communities reference | [Demo](https://gmowses.github.io/bgp-community-reference/) |
-| [vlan-planner](https://github.com/gmowses/vlan-planner) -- VLAN allocation planner | [Demo](https://gmowses.github.io/vlan-planner/) |
-| [mtu-calculator](https://github.com/gmowses/mtu-calculator) -- MTU/MSS for tunnels | [Demo](https://gmowses.github.io/mtu-calculator/) |
-| [wireless-calculator](https://github.com/gmowses/wireless-calculator) -- WiFi link budget, FSPL, Fresnel | [Demo](https://gmowses.github.io/wireless-calculator/) |
-| [fiber-loss-calculator](https://github.com/gmowses/fiber-loss-calculator) -- Fiber optic loss budget | [Demo](https://gmowses.github.io/fiber-loss-calculator/) |
-| [nat-type-reference](https://github.com/gmowses/nat-type-reference) -- NAT types explained | [Demo](https://gmowses.github.io/nat-type-reference/) |
-| [arp-table-parser](https://github.com/gmowses/arp-table-parser) -- ARP output parser with vendor lookup | [Demo](https://gmowses.github.io/arp-table-parser/) |
-| [tcp-flags-reference](https://github.com/gmowses/tcp-flags-reference) -- TCP flags and handshake reference | [Demo](https://gmowses.github.io/tcp-flags-reference/) |
+#### BGP (10)
 
-#### Security & Encoding
+[bgp-path-simulator](https://gmowses.github.io/bgp-path-simulator/) | [bgp-regex-builder](https://gmowses.github.io/bgp-regex-builder/) | [bgp-looking-glass](https://gmowses.github.io/bgp-looking-glass/) | [as-path-analyzer](https://gmowses.github.io/as-path-analyzer/) | [bgp-policy-generator](https://gmowses.github.io/bgp-policy-generator/) | [bgp-flowspec-reference](https://gmowses.github.io/bgp-flowspec-reference/) | [rpki-reference](https://gmowses.github.io/rpki-reference/) | [irr-object-generator](https://gmowses.github.io/irr-object-generator/) | [bgp-table-calculator](https://gmowses.github.io/bgp-table-calculator/) | [peering-policy-generator](https://gmowses.github.io/peering-policy-generator/)
 
-| Tool | Live |
-|------|------|
-| [password-generator](https://github.com/gmowses/password-generator) -- Entropy analysis, crack-time | [Demo](https://gmowses.github.io/password-generator/) |
-| [hash-generator](https://github.com/gmowses/hash-generator) -- SHA-1/256/384/512 via Web Crypto | [Demo](https://gmowses.github.io/hash-generator/) |
-| [jwt-decoder](https://github.com/gmowses/jwt-decoder) -- JWT decoder, claims, expiration | [Demo](https://gmowses.github.io/jwt-decoder/) |
-| [base64-codec](https://github.com/gmowses/base64-codec) -- Base64 encode/decode, files, URL-safe | [Demo](https://gmowses.github.io/base64-codec/) |
-| [ssl-decoder](https://github.com/gmowses/ssl-decoder) -- PEM certificate decoder | [Demo](https://gmowses.github.io/ssl-decoder/) |
-| [uuid-generator](https://github.com/gmowses/uuid-generator) -- UUID v4 bulk generator | [Demo](https://gmowses.github.io/uuid-generator/) |
-| [random-data-generator](https://github.com/gmowses/random-data-generator) -- Fake data (CPF, CNPJ, names) | [Demo](https://gmowses.github.io/random-data-generator/) |
-| [cors-tester](https://github.com/gmowses/cors-tester) -- CORS flow reference and tester | [Demo](https://gmowses.github.io/cors-tester/) |
-| [secret-sharing](https://github.com/gmowses/secret-sharing) -- Shamir's Secret Sharing (GF256) | [Demo](https://gmowses.github.io/secret-sharing/) |
+#### OSPF & MPLS (10)
 
-#### DevOps & Sysadmin
+[ospf-area-designer](https://gmowses.github.io/ospf-area-designer/) | [ospf-cost-calculator](https://gmowses.github.io/ospf-cost-calculator/) | [ospf-lsa-reference](https://gmowses.github.io/ospf-lsa-reference/) | [ospf-neighbor-states](https://gmowses.github.io/ospf-neighbor-states/) | [ospf-config-generator](https://gmowses.github.io/ospf-config-generator/) | [mpls-label-reference](https://gmowses.github.io/mpls-label-reference/) | [mpls-vpn-designer](https://gmowses.github.io/mpls-vpn-designer/) | [segment-routing-reference](https://gmowses.github.io/segment-routing-reference/) | [qos-designer](https://gmowses.github.io/qos-designer/) | [ldp-vs-rsvp-reference](https://gmowses.github.io/ldp-vs-rsvp-reference/)
 
-| Tool | Live |
-|------|------|
-| [cron-builder](https://github.com/gmowses/cron-builder) -- Visual cron builder with presets | [Demo](https://gmowses.github.io/cron-builder/) |
-| [chmod-calculator](https://github.com/gmowses/chmod-calculator) -- Linux permissions calculator | [Demo](https://gmowses.github.io/chmod-calculator/) |
-| [docker-compose-generator](https://github.com/gmowses/docker-compose-generator) -- Visual compose builder | [Demo](https://gmowses.github.io/docker-compose-generator/) |
-| [nginx-config-generator](https://github.com/gmowses/nginx-config-generator) -- Nginx config generator | [Demo](https://gmowses.github.io/nginx-config-generator/) |
-| [systemd-unit-generator](https://github.com/gmowses/systemd-unit-generator) -- Systemd service generator | [Demo](https://gmowses.github.io/systemd-unit-generator/) |
-| [k8s-yaml-generator](https://github.com/gmowses/k8s-yaml-generator) -- Kubernetes manifest generator | [Demo](https://gmowses.github.io/k8s-yaml-generator/) |
-| [gitignore-generator](https://github.com/gmowses/gitignore-generator) -- .gitignore template builder | [Demo](https://gmowses.github.io/gitignore-generator/) |
-| [uptime-calculator](https://github.com/gmowses/uptime-calculator) -- SLA uptime calculator | [Demo](https://gmowses.github.io/uptime-calculator/) |
-| [log-parser](https://github.com/gmowses/log-parser) -- Multi-format log parser | [Demo](https://gmowses.github.io/log-parser/) |
-| [linux-signals-reference](https://github.com/gmowses/linux-signals-reference) -- Linux signals reference | [Demo](https://gmowses.github.io/linux-signals-reference/) |
-| [exit-code-reference](https://github.com/gmowses/exit-code-reference) -- Shell exit codes reference | [Demo](https://gmowses.github.io/exit-code-reference/) |
+#### ISP Operations (10)
 
-#### Development Tools
+[pppoe-calculator](https://gmowses.github.io/pppoe-calculator/) | [cgnat-calculator](https://gmowses.github.io/cgnat-calculator/) | [traffic-engineering-calc](https://gmowses.github.io/traffic-engineering-calc/) | [sla-calculator-pro](https://gmowses.github.io/sla-calculator-pro/) | [ip-numbering-plan](https://gmowses.github.io/ip-numbering-plan/) | [radius-attribute-reference](https://gmowses.github.io/radius-attribute-reference/) | [snmp-oid-browser](https://gmowses.github.io/snmp-oid-browser/) | [optical-power-calculator](https://gmowses.github.io/optical-power-calculator/) | [pon-splitter-calculator](https://gmowses.github.io/pon-splitter-calculator/) | [anatel-reference](https://gmowses.github.io/anatel-reference/)
 
-| Tool | Live |
-|------|------|
-| [json-formatter](https://github.com/gmowses/json-formatter) -- Formatter, validator, tree view | [Demo](https://gmowses.github.io/json-formatter/) |
-| [yaml-json-converter](https://github.com/gmowses/yaml-json-converter) -- YAML/JSON converter | [Demo](https://gmowses.github.io/yaml-json-converter/) |
-| [regex-playground](https://github.com/gmowses/regex-playground) -- Regex tester with network presets | [Demo](https://gmowses.github.io/regex-playground/) |
-| [diff-checker](https://github.com/gmowses/diff-checker) -- Side-by-side text diff | [Demo](https://gmowses.github.io/diff-checker/) |
-| [timestamp-converter](https://github.com/gmowses/timestamp-converter) -- Unix timestamp converter | [Demo](https://gmowses.github.io/timestamp-converter/) |
-| [http-status](https://github.com/gmowses/http-status) -- HTTP status codes reference | [Demo](https://gmowses.github.io/http-status/) |
-| [color-converter](https://github.com/gmowses/color-converter) -- HEX/RGB/HSL converter | [Demo](https://gmowses.github.io/color-converter/) |
-| [markdown-preview](https://github.com/gmowses/markdown-preview) -- Markdown editor with preview | [Demo](https://gmowses.github.io/markdown-preview/) |
-| [url-parser](https://github.com/gmowses/url-parser) -- URL component parser | [Demo](https://gmowses.github.io/url-parser/) |
-| [sql-formatter](https://github.com/gmowses/sql-formatter) -- SQL beautifier | [Demo](https://gmowses.github.io/sql-formatter/) |
-| [csv-to-json](https://github.com/gmowses/csv-to-json) -- CSV/JSON converter | [Demo](https://gmowses.github.io/csv-to-json/) |
-| [lorem-ipsum-generator](https://github.com/gmowses/lorem-ipsum-generator) -- Placeholder text generator | [Demo](https://gmowses.github.io/lorem-ipsum-generator/) |
-| [qr-code-generator](https://github.com/gmowses/qr-code-generator) -- QR code generator | [Demo](https://gmowses.github.io/qr-code-generator/) |
+#### Security & Encoding (9)
+
+[password-generator](https://gmowses.github.io/password-generator/) | [hash-generator](https://gmowses.github.io/hash-generator/) | [jwt-decoder](https://gmowses.github.io/jwt-decoder/) | [base64-codec](https://gmowses.github.io/base64-codec/) | [ssl-decoder](https://gmowses.github.io/ssl-decoder/) | [uuid-generator](https://gmowses.github.io/uuid-generator/) | [random-data-generator](https://gmowses.github.io/random-data-generator/) | [cors-tester](https://gmowses.github.io/cors-tester/) | [secret-sharing](https://gmowses.github.io/secret-sharing/)
+
+#### DevOps & Sysadmin (11)
+
+[cron-builder](https://gmowses.github.io/cron-builder/) | [chmod-calculator](https://gmowses.github.io/chmod-calculator/) | [docker-compose-generator](https://gmowses.github.io/docker-compose-generator/) | [nginx-config-generator](https://gmowses.github.io/nginx-config-generator/) | [systemd-unit-generator](https://gmowses.github.io/systemd-unit-generator/) | [k8s-yaml-generator](https://gmowses.github.io/k8s-yaml-generator/) | [gitignore-generator](https://gmowses.github.io/gitignore-generator/) | [uptime-calculator](https://gmowses.github.io/uptime-calculator/) | [log-parser](https://gmowses.github.io/log-parser/) | [linux-signals-reference](https://gmowses.github.io/linux-signals-reference/) | [exit-code-reference](https://gmowses.github.io/exit-code-reference/)
+
+#### Development Tools (13)
+
+[json-formatter](https://gmowses.github.io/json-formatter/) | [yaml-json-converter](https://gmowses.github.io/yaml-json-converter/) | [regex-playground](https://gmowses.github.io/regex-playground/) | [diff-checker](https://gmowses.github.io/diff-checker/) | [timestamp-converter](https://gmowses.github.io/timestamp-converter/) | [http-status](https://gmowses.github.io/http-status/) | [color-converter](https://gmowses.github.io/color-converter/) | [markdown-preview](https://gmowses.github.io/markdown-preview/) | [url-parser](https://gmowses.github.io/url-parser/) | [sql-formatter](https://gmowses.github.io/sql-formatter/) | [csv-to-json](https://gmowses.github.io/csv-to-json/) | [lorem-ipsum-generator](https://gmowses.github.io/lorem-ipsum-generator/) | [qr-code-generator](https://gmowses.github.io/qr-code-generator/)
 
 ---
 
-### Production at scale
+### Production
 
-| Project | What | Stack |
-|---------|------|-------|
-| **CultBR** | Cultural governance platform for Brazil's Ministry of Culture | FastAPI, Vue.js, Aurora PostgreSQL, EKS, ArgoCD |
-| **TelaBrasil** | One of Brazil's largest public streaming platforms | EKS, observability, CI/CD, scalable infra |
-| **CloudFace** | NMS/IPAM platform for Brazilian ISPs | FastAPI, React, SNMP, NetFlow, SSH automation |
+| Project | Stack |
+|---------|-------|
+| **CultBR** -- Ministry of Culture governance platform | FastAPI, Vue.js, Aurora, EKS, ArgoCD |
+| **TelaBrasil** -- Public streaming platform | EKS, observability, CI/CD |
+| **CloudFace** -- ISP NMS/IPAM | FastAPI, React, SNMP, NetFlow |
 
 ### Tech
 
 ```
-Cloud:         AWS (EKS, Aurora, ElastiCache, S3, IAM, Route53)
-Orchestration: Kubernetes, Helm, ArgoCD, Karpenter
-IaC:           OpenTofu, Terraform, HCL
-CI/CD:         GitLab CI, GitHub Actions
-Languages:     Python, Go, TypeScript, Bash, HCL
-Databases:     PostgreSQL, Redis, InfluxDB
-Monitoring:    Prometheus, Grafana, Loki, Jaeger, Zabbix
-Networking:    BGP, MPLS, SNMP, NetFlow, CGNAT, DNS
-Security:      HashiCorp Vault, OIDC, cert-manager
+AWS EKS, Aurora, ElastiCache, S3 | Kubernetes, Helm, ArgoCD, Karpenter
+OpenTofu, Terraform | GitLab CI, GitHub Actions
+Python, Go, TypeScript, Bash | PostgreSQL, Redis, InfluxDB
+Prometheus, Grafana, Loki, Jaeger | BGP, MPLS, SNMP, NetFlow, CGNAT
+HashiCorp Vault, OIDC, cert-manager | Linux, Docker, Nginx, Traefik
 ```
 
 ### Contact
