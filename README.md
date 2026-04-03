@@ -2,7 +2,9 @@
 
 **Infrastructure Engineer & DevOps** at NEES/UFAL | **CloudFace Tools** creator | Maceio-AL, Brazil
 
-79 open source developer tools for networking, security, DevOps and telecom. All client-side, dark/light mode, EN/PT-BR.
+111 open source developer tools for networking, security, DevOps and telecom. All client-side, dark/light mode, EN/PT-BR.
+
+**[cloudface-tools](https://gmowses.github.io/cloudface-tools/)** -- Portal with all tools, search, categories, dark/light mode
 
 ---
 
@@ -32,9 +34,27 @@
 
 [cron-builder](https://gmowses.github.io/cron-builder/) | [chmod-calculator](https://gmowses.github.io/chmod-calculator/) | [docker-compose-generator](https://gmowses.github.io/docker-compose-generator/) | [nginx-config-generator](https://gmowses.github.io/nginx-config-generator/) | [systemd-unit-generator](https://gmowses.github.io/systemd-unit-generator/) | [k8s-yaml-generator](https://gmowses.github.io/k8s-yaml-generator/) | [gitignore-generator](https://gmowses.github.io/gitignore-generator/) | [uptime-calculator](https://gmowses.github.io/uptime-calculator/) | [log-parser](https://gmowses.github.io/log-parser/) | [linux-signals-reference](https://gmowses.github.io/linux-signals-reference/) | [exit-code-reference](https://gmowses.github.io/exit-code-reference/)
 
-#### Development Tools (13)
+#### Development Tools (19)
 
-[json-formatter](https://gmowses.github.io/json-formatter/) | [yaml-json-converter](https://gmowses.github.io/yaml-json-converter/) | [regex-playground](https://gmowses.github.io/regex-playground/) | [diff-checker](https://gmowses.github.io/diff-checker/) | [timestamp-converter](https://gmowses.github.io/timestamp-converter/) | [http-status](https://gmowses.github.io/http-status/) | [color-converter](https://gmowses.github.io/color-converter/) | [markdown-preview](https://gmowses.github.io/markdown-preview/) | [url-parser](https://gmowses.github.io/url-parser/) | [sql-formatter](https://gmowses.github.io/sql-formatter/) | [csv-to-json](https://gmowses.github.io/csv-to-json/) | [lorem-ipsum-generator](https://gmowses.github.io/lorem-ipsum-generator/) | [qr-code-generator](https://gmowses.github.io/qr-code-generator/)
+[json-formatter](https://gmowses.github.io/json-formatter/) | [yaml-json-converter](https://gmowses.github.io/yaml-json-converter/) | [regex-playground](https://gmowses.github.io/regex-playground/) | [diff-checker](https://gmowses.github.io/diff-checker/) | [timestamp-converter](https://gmowses.github.io/timestamp-converter/) | [http-status](https://gmowses.github.io/http-status/) | [color-converter](https://gmowses.github.io/color-converter/) | [markdown-preview](https://gmowses.github.io/markdown-preview/) | [url-parser](https://gmowses.github.io/url-parser/) | [sql-formatter](https://gmowses.github.io/sql-formatter/) | [csv-to-json](https://gmowses.github.io/csv-to-json/) | [lorem-ipsum-generator](https://gmowses.github.io/lorem-ipsum-generator/) | [qr-code-generator](https://gmowses.github.io/qr-code-generator/) | [api-response-formatter](https://gmowses.github.io/api-response-formatter/) | [curl-to-code](https://gmowses.github.io/curl-to-code/) | [xml-to-json](https://gmowses.github.io/xml-to-json/) | [html-entity-encoder](https://gmowses.github.io/html-entity-encoder/) | [string-case-converter](https://gmowses.github.io/string-case-converter/) | [code-screenshot](https://gmowses.github.io/code-screenshot/)
+
+#### Web & Design (10)
+
+[aspect-ratio-calculator](https://gmowses.github.io/aspect-ratio-calculator/) | [box-shadow-generator](https://gmowses.github.io/box-shadow-generator/) | [css-grid-generator](https://gmowses.github.io/css-grid-generator/) | [flexbox-playground](https://gmowses.github.io/flexbox-playground/) | [gradient-generator](https://gmowses.github.io/gradient-generator/) | [favicon-generator](https://gmowses.github.io/favicon-generator/) | [meta-tag-generator](https://gmowses.github.io/meta-tag-generator/) | [robots-txt-generator](https://gmowses.github.io/robots-txt-generator/) | [sitemap-generator](https://gmowses.github.io/sitemap-generator/) | [svg-optimizer](https://gmowses.github.io/svg-optimizer/)
+
+#### Converters & Utilities (12)
+
+[byte-converter](https://gmowses.github.io/byte-converter/) | [number-base-converter](https://gmowses.github.io/number-base-converter/) | [percentage-calculator](https://gmowses.github.io/percentage-calculator/) | [unit-converter](https://gmowses.github.io/unit-converter/) | [binary-text-converter](https://gmowses.github.io/binary-text-converter/) | [unicode-lookup](https://gmowses.github.io/unicode-lookup/) | [morse-code-translator](https://gmowses.github.io/morse-code-translator/) | [text-statistics](https://gmowses.github.io/text-statistics/) | [countdown-timer](https://gmowses.github.io/countdown-timer/) | [pomodoro-timer](https://gmowses.github.io/pomodoro-timer/) | [typing-speed-test](https://gmowses.github.io/typing-speed-test/) | [pi-digits](https://gmowses.github.io/pi-digits/)
+
+#### API & Protocols (4)
+
+[http-headers-reference](https://gmowses.github.io/http-headers-reference/) | [mime-type-reference](https://gmowses.github.io/mime-type-reference/) | [smtp-code-reference](https://gmowses.github.io/smtp-code-reference/) | [oauth-flow-visualizer](https://gmowses.github.io/oauth-flow-visualizer/)
+
+---
+
+### Open Source Contributions
+
+**[cereja-project/cereja](https://github.com/cereja-project/cereja)** -- Python utility toolkit. Contributing CI/CD modernization, test coverage, code quality, and type hints ([9 PRs](https://github.com/cereja-project/cereja/pulls?q=is%3Apr+author%3Agmowses)).
 
 ---
 
