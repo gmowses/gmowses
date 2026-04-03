@@ -106,5 +106,5 @@ Security:      HashiCorp Vault, OIDC, cert-manager
 ### Contact
 
 - **LinkedIn**: [linkedin.com/in/gabrielmowses](https://www.linkedin.com/in/gabrielmowses)
-- **Email**: contato@gmowses.cloud
+- **Email**: gabrielmowses@gmail.com
 - **Location**: Maceio-AL, Brazil | Remote
